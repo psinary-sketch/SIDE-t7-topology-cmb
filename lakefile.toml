@@ -1,0 +1,6 @@
+name = "SIDET7TopologyCMB"
+version = "0.1.0"
+defaultTargets = ["SIDET7TopologyCMB"]
+
+[[lean_lib]]
+name = "SIDET7TopologyCMB"
