@@ -106,7 +106,32 @@ polarization-reflection at common scale," never to the untested seven-scale clai
 Pipeline re-tagged **v0.3** (numerics unchanged from the conformed form; the geometry stays
 the ratified incidence realization, now honestly labeled the common-scale realization).
 
-## Run
+## Run — executed 2026-07-18 (single, frozen, seed 770411)
 
-Single run, frozen parameters, seed 770411, JSON output. Result appended below after
-execution. (No peeking iterations, no variation re-runs — prereg §9.)
+Pipeline `t7_arc_search.py` at **v0.3 = `8eb0d5a`**. Env: healpy 1.19.0 / numpy 2.5.1 /
+scipy 1.18.0. Inputs: SMICA `ee2fc49a…` + common Int mask `b607003f…`. Output
+`t7_results.json` (md5 `a340fabf74c720f39cdcbd994177fc47`).
+
+**Platform note (no numeric effect, code untouched).** The first invocation crashed on a
+Windows cp1252 console `UnicodeEncodeError` printing a status line with `θ/∈/°` —
+**before any correlation was computed** (crash at the pre-scan status print; no statistic
+seen). Re-run with `PYTHONIOENCODING=utf-8` set at the environment level; the frozen v0.3
+code is byte-identical. Seed 770411 is deterministic, so this is the one registered
+analysis, not a variation re-run.
+
+**Result (surviving-signature test — matched arc + Stokes-U sign flip at the common Fano scale):**
+- Best `θ_min = 54.0°`; signal `S = 7.10e-09` (map-unit², effectively zero in absolute terms).
+- **Global look-elsewhere p = 0.04595** (max-statistic over the 171-point θ_min scan; 45 of
+  1000 rotated-sky nulls matched/exceeded the real-sky max, 46/1001).
+- Scan: 171 points (θ_min 5.0°–90.0° step 0.5°); 40/171 per-θ_min p<0.05, 23 p<0.01; per-θ_min p floor 0.000999.
+- **§5 verdict letter: D — MARGINAL** (0.01 ≤ p < 0.05). Per §6 Outcome D: **published as null,
+  flagged for higher-resolution follow-up.** NOT a detection, NOT suggestive.
+
+**Scope (honest).** This verdict is on the **surviving signature at the common Fano scale**,
+never on the seven-distinct-scale count (which is UNTESTED-AS-UNDERDETERMINED, filed as a
+finding). The absolute signal is ~zero; the marginal p sits on a weakened (single-scale)
+discriminator and is well within reach of the residual foreground / ISW modulation §4.1
+flags. Route-#1 falsifier (§12: "zero signal across all candidate L") is **not cleanly met**
+(a marginal excess at θ_min = 54°) and **not a detection** — the pre-committed reading is the
+Marginal band. The result NOTE is drafted in the empirical grammar and **HELD for author
+review before any keystone / census / cosmology-constellation edits.**
