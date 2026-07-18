@@ -209,4 +209,29 @@ def falsification_routes : List FalsificationRoute := [
 theorem four_falsification_routes :
     falsification_routes.length = 4 := by decide
 
+/-! ## §12.1 Registered-search status (2026-07-18)
+
+  The route #1 falsifier ("Matched-arc search at the Fano-predicted angular
+  separations returns zero signal across all candidate fundamental-domain sizes")
+  was operationalized by the pre-registration `T7_CMB_PIPELINE_PREREGISTRATION_v0_1`
+  and executed once (pipeline `t7_arc_search.py` v0.3 = 8eb0d5a; Planck 2018 SMICA;
+  seed 770411; result JSON md5 a340fabf).
+
+  Status:
+   - **Surviving signature** (route #4 content — matched arc pairs with the Stokes-U
+     polarization sign flip, the scale-independent non-orientability discriminator,
+     at the common Fano scale): **EXECUTED — Outcome D (marginal-null), global
+     look-elsewhere p = 0.046** (§5 "Marginal": publish null, flag for higher-
+     resolution follow-up). Not a detection, not suggestive.
+   - **Primary seven-DISTINCT-scale count** (route #1 as literally stated): **PENDING
+     METRIC REALIZATION — UNTESTED-AS-UNDERDETERMINED.** GL(3,𝔽₂) (order 168) is
+     transitive on the Fano lines, so the seven distinct scales are not determinable
+     from the abstract incidence alone; the corpus states no fundamental-domain
+     generator lengths. Derivation from the substrate constants (1/16 floor, formation
+     tuple, H₁ free/torsion split) is the queued theory item — closes at a derivation
+     plus a new registration for the full seven-scale test, or an honest-boundary note.
+
+  The kernel's structural theorems (§1–§12 above) are unchanged; this is a status note
+  appended on `main` past the `v0.1.0` tag. No retro-edit of the tagged content. -/
+
 end SIDET7TopologyCMB
