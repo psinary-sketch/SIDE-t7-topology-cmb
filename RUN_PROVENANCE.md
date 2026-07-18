@@ -88,8 +88,25 @@ or an explicit seven-length / d_ij table for (c)); OR rule that the seven-scale 
 corpus-underdetermined as it stands. On a ruling, the geometry is re-realized exactly as
 specified, **re-tagged v0.3**, re-ratified, O.9/pointer updated — and only then the run.
 
+## PRE-SIGNAL AMENDMENT 2 — surviving-signature run (author ruling 2026-07-18, v0.3)
+
+**Ruling.** The seven-DISTINCT-scale discriminator is **corpus-underdetermined** and is
+FILED as a finding (no metric realization stated anywhere; the abstract-incidence
+realization is provably near-degenerate by GL(3,𝔽₂) transitivity). **No length ratio is
+supplied at the instrument** — any ratio now would be a post-hoc free parameter, declined.
+
+**What today's run tests.** The REGISTERED **SURVIVING SIGNATURE**: matched arc pairs with
+the **Stokes-U sign flip** — the non-orientability discriminator, **scale-independent**,
+unique to 𝕋₇ in the §1 table (3-torus / dodecahedron / infinite-flat all lack it) — at the
+common Fano scale, over the frozen θ_min scan. The **seven-scale COUNT discriminator is
+marked UNTESTED-AS-UNDERDETERMINED, not null.** §5 thresholds apply unchanged to the MC null
+of the statistic actually computed. The verdict sentence is scoped to "matched-arc +
+polarization-reflection at common scale," never to the untested seven-scale claim.
+
+Pipeline re-tagged **v0.3** (numerics unchanged from the conformed form; the geometry stays
+the ratified incidence realization, now honestly labeled the common-scale realization).
+
 ## Run
 
-**HELD** — pending the FORK (ii) geometry ruling above. No run before re-ratification.
-Single run when unblocked: frozen parameters, seed 770411, JSON output (no peeking, no
-variation re-runs — prereg §9).
+Single run, frozen parameters, seed 770411, JSON output. Result appended below after
+execution. (No peeking iterations, no variation re-runs — prereg §9.)

@@ -25,8 +25,21 @@ WHAT IS FROZEN (conformed here exactly — do not change after data are touched)
   - toolchain       = HEALPix + Healpy (§4/§8; Windows: conda-forge healpy).
                       NumPy for cross-correlation, SciPy for statistics.
 
-GEOMETRY — REGISTERED REALIZATION OF "THE FANO INCIDENCE GEOMETRY" (§3 step 2).
-  *** RATIFIED BY THE AUTHOR 2026-07-18 — this is the registered geometry. ***
+GEOMETRY — COMMON-SCALE REALIZATION; the seven-distinct-scale discriminator is
+  CORPUS-UNDERDETERMINED (pre-signal amendment, author ruling 2026-07-18, v0.3).
+  Finding: GL(3,𝔽₂) (order 168) is transitive on the Fano lines, so any realization
+  of the seven separations from the ABSTRACT incidence alone is provably (near-)
+  degenerate; the seven distinct scales require the physical fundamental domain's
+  seven generator lengths, which the corpus states NOWHERE (source-read verbatim:
+  θ_ij formula + "d_ij geodesic distance in the Fano geometry" + "characteristic
+  size L", no lengths/metric). No length ratio is supplied at the instrument (a
+  post-hoc free parameter — declined). This run therefore tests the REGISTERED
+  SURVIVING SIGNATURE: matched arc pairs with the Stokes-U sign flip (the non-
+  orientability discriminator — scale-independent, unique to 𝕋₇ in the §1 table)
+  at the common Fano scale, over the frozen θ_min scan. The seven-scale COUNT
+  discriminator is UNTESTED-AS-UNDERDETERMINED (not null). §5 thresholds apply
+  unchanged to the MC null of the statistic actually computed. The realization below
+  is the ratified incidence embedding, honestly relabeled as the common-scale form.
   The frozen documents delegate the seven predicted separations to "the Fano
   incidence geometry" (prereg §3) and give the angle formula (T7_CMB.md §82-86)
       θ_ij = arccos(1 − (d_ij / R_LSS)² / 2),   R_LSS ≈ 14.1 Gpc,
@@ -282,7 +295,11 @@ def run(map_file, mask_file=None, nside_out=NSIDE, n_mc=N_MC, seed=SEED_FROZEN,
                    "annulus_deg": ANNULUS_DEG,
                    "theta_min_scan_deg": [THETA_MIN_LO, THETA_MIN_HI, THETA_MIN_STEP]},
         "environment_frozen": versions,          # §8 "environment frozen" line
-        "geometry": "documented Fano-incidence realization — author-confirm (see docstring)",
+        "test_scope": ("SURVIVING SIGNATURE (matched-arc + Stokes-U sign flip at the "
+                       "common Fano scale). Seven-distinct-scale COUNT discriminator is "
+                       "UNTESTED-AS-UNDERDETERMINED (corpus specifies no generator "
+                       "lengths; GL(3,F2) transitivity forces near-degeneracy). v0.3."),
+        "geometry": "common-scale Fano-incidence realization (v0.3; see docstring amendment)",
         "inputs": {"map": map_file, "mask": mask_file},
         "theta_min_deg": [float(x) for x in theta_grid],
         "signal_scan": [float(x) for x in obs],
