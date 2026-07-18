@@ -25,8 +25,8 @@ WHAT IS FROZEN (conformed here exactly — do not change after data are touched)
   - toolchain       = HEALPix + Healpy (§4/§8; Windows: conda-forge healpy).
                       NumPy for cross-correlation, SciPy for statistics.
 
-GEOMETRY — DOCUMENTED REALIZATION OF "THE FANO INCIDENCE GEOMETRY" (§3 step 2).
-  *** AUTHOR-CONFIRM BEFORE THE CONFIRMATORY RUN. ***
+GEOMETRY — REGISTERED REALIZATION OF "THE FANO INCIDENCE GEOMETRY" (§3 step 2).
+  *** RATIFIED BY THE AUTHOR 2026-07-18 — this is the registered geometry. ***
   The frozen documents delegate the seven predicted separations to "the Fano
   incidence geometry" (prereg §3) and give the angle formula (T7_CMB.md §82-86)
       θ_ij = arccos(1 − (d_ij / R_LSS)² / 2),   R_LSS ≈ 14.1 Gpc,
@@ -41,9 +41,10 @@ GEOMETRY — DOCUMENTED REALIZATION OF "THE FANO INCIDENCE GEOMETRY" (§3 step 2
     - The seven δ_ℓ fix the RATIOS of the separations (the "not equally spaced,
       follow the Fano geometry" structure, §80); the scan slides the overall
       physical scale so that the SMALLEST separation equals θ_min.
-  The embedding + per-line δ_ℓ construction is a documented realization of the
-  registered "Fano incidence geometry", not a second frozen formula — it is
-  flagged for author confirmation.  The heritage copy retains the old realization.
+  The embedding + per-line δ_ℓ construction is the registered realization of the
+  "Fano incidence geometry" — RATIFIED by the author 2026-07-18 (unchanged from
+  v0.2; the geometry is now part of the frozen method).  The heritage copy retains
+  the old heuristic realization.
 
 Sources cited (docstring + IMPLEMENTATION_NOTES.md):
   - SIDE-t7-topology-cmb v0.1 (Basic.lean §1,§6): Fano PG(2,𝔽₂), K₇ collinearity.

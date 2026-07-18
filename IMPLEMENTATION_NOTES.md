@@ -70,14 +70,14 @@ structure verified in `SIDE-t7-topology-cmb v0.1` (Basic.lean §1, §6):
    follow the Fano geometry" structure, §80); the θ_min scan slides the overall
    physical scale so the smallest separation equals θ_min.
 
-**This embedding + per-line δ_ℓ construction is a documented realization of the
-registered "Fano incidence geometry", not a second frozen formula.** It — and the
-inherited reflection-through-axis identification/arc-position model — are the one
-place where the frozen spec delegated to a geometry it did not close in code.
-**Author confirmation is requested before the confirmatory run** that this is the
-intended registered geometry. The frozen *numerical* parameters above are
-conformed exactly and are not in question. Because the run is data-gated (Planck
-FITS not yet downloaded), there is a natural checkpoint before it matters.
+**This embedding + per-line δ_ℓ construction is the registered realization of the
+"Fano incidence geometry" — RATIFIED BY THE AUTHOR 2026-07-18.** It — and the
+inherited reflection-through-axis identification/arc-position model — were the one
+place where the frozen spec delegated to a geometry it did not close in code; the
+author has now ratified this realization as the registered geometry (tagged v0.2.1;
+code logic identical to v0.2). The frozen *numerical* parameters above were
+conformed exactly and were never in question. The geometry is now part of the
+frozen method — no change after data are touched.
 
 ## Data (verify at intake; STOP on mismatch)
 
