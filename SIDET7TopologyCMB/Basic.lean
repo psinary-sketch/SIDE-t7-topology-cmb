@@ -223,13 +223,20 @@ theorem four_falsification_routes :
      at the common Fano scale): **EXECUTED — Outcome D (marginal-null), global
      look-elsewhere p = 0.046** (§5 "Marginal": publish null, flag for higher-
      resolution follow-up). Not a detection, not suggestive.
-   - **Primary seven-DISTINCT-scale count** (route #1 as literally stated): **PENDING
-     METRIC REALIZATION — UNTESTED-AS-UNDERDETERMINED.** GL(3,𝔽₂) (order 168) is
-     transitive on the Fano lines, so the seven distinct scales are not determinable
-     from the abstract incidence alone; the corpus states no fundamental-domain
-     generator lengths. Derivation from the substrate constants (1/16 floor, formation
-     tuple, H₁ free/torsion split) is the queued theory item — closes at a derivation
-     plus a new registration for the full seven-scale test, or an honest-boundary note.
+   - **Primary seven-DISTINCT-scale count** (route #1 as literally stated):
+     **UNDERDETERMINED — CLOSED BY SURVEY (author ruling 2026-07-18).** GL(3,𝔽₂)
+     (order 168) is transitive on the Fano lines, so the seven distinct scales are not
+     determinable from the abstract incidence alone; the corpus states no fundamental-
+     domain generator lengths. A blind derivation attempt from the substrate constants
+     (1/16 floor, formation tuple, H₁ free/torsion split, incidence eigenstructure) was
+     surveyed and screened (a construction must FORCE the ratios, not merely permit):
+     every substrate-native construction yields at most a three-fold partition or a
+     single overall scale — never seven distinct — and the sole seven-distinct route
+     (Hamming weight) is basis-dependent (a parameterization). **The substrate does not
+     determine the seven lengths** (honest-boundary finding, T7_CMB.md §"The substrate
+     does not determine the seven lengths"). The surviving-signature execution record
+     (Outcome D) is unchanged. Reopen only on genuinely new substrate structure, by
+     author ruling.
 
   The kernel's structural theorems (§1–§12 above) are unchanged; this is a status note
   appended on `main` past the `v0.1.0` tag. No retro-edit of the tagged content. -/
